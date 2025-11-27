@@ -29,8 +29,8 @@ const produkList = [
     berat: 200,
     kategori: "PAPIR / KERTAS LINTING",
     gambar: [
-      "../ANJAY/gambar/PAPIR_KERTAS_LINTING/MILD_MERAH/MILD_MERAH 1.jpg",
-      "../ANJAY/gambar/PAPIR_KERTAS_LINTING/MILD_MERAH/MILD_MERAH 2.jpg"
+      "../gambar/MILD COKELAT - Copy - Copy/PAPIR_KERTAS_LINTING/MILD_MERAH/MILD_MERAH 1.jpg",
+      "../gambar/MILD COKELAT - Copy - Copy/PAPIR_KERTAS_LINTING/MILD_MERAH/MILD_MERAH 2.jpg"
     ],
     deskripsi: [
       "Nikmati Citarasa Lintingan Sendiri.",
@@ -50,9 +50,9 @@ const produkList = [
     berat: 200,
     kategori: "PAPIR / KERTAS LINTING",
     gambar: [
-      "../ANJAY/gambar/PAPIR_KERTAS_LINTING/MILD_HIJAU/MILD_HIJAU-1.jpg",
-      "../ANJAY/gambar/PAPIR_KERTAS_LINTING/MILD_HIJAU/MILD_HIJAU-2.jpg",
-      "../ANJAY/gambar/PAPIR_KERTAS_LINTING/MILD_HIJAU/MILD_HIJAU-3.jpg"
+      "../gambar/MILD COKELAT - Copy - Copy/PAPIR_KERTAS_LINTING/MILD_HIJAU/MILD_HIJAU-1.jpg",
+      "../gambar/MILD COKELAT - Copy - Copy/PAPIR_KERTAS_LINTING/MILD_HIJAU/MILD_HIJAU-2.jpg",
+      "../gambar/MILD COKELAT - Copy - Copy/PAPIR_KERTAS_LINTING/MILD_HIJAU/MILD_HIJAU-3.jpg"
     ],
     deskripsi: [
       "Nikmati Citarasa Lintingan Sendiri.",
