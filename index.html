@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Produk Tembakau (Bako Linting) & Aksesorinya</title>
 
-  <!-- FAVICON (opsional) -->
-  <!-- <link rel="icon" type="gambar/logo-toko/logo.jpg" href="gambar/logo-toko/logo.jpg" /> -->
+  <!-- ✅ FAVICON SUDAH AKTIF (tanpa comment, MIME benar) -->
+  <link rel="icon" type="image/jpeg" href="gambar/logo toko/logo.jpg" />
 
   <!-- FILE CSS -->
   <link rel="stylesheet" href="style.css" />
@@ -17,7 +17,6 @@
   <!-- HEADER DENGAN LOGO -->
   <header>
     <div class="brand">
-      <!-- GANTI src DENGAN PATH LOGO KAMU -->
       <img src="gambar/logo toko/logo.jpg" alt="Logo Toko Bako Linting" />
       <div>
         <h1>Produk Tembakau</h1>
@@ -28,91 +27,60 @@
 
   <main class="section">
 
-    <!-- KATEGORI -->
     <h2 class="section-title">Kategori Produk</h2>
 
     <div class="kategori-box" id="kategoriBox">
-      <button
-        class="kategori-item"
-        data-category="PAPIR / KERTAS LINTING"
-        onclick="openKategori('PAPIR / KERTAS LINTING')">
+      <button class="kategori-item" data-category="PAPIR / KERTAS LINTING" onclick="openKategori('PAPIR / KERTAS LINTING')">
         ■ PAPIR / KERTAS LINTING
       </button>
 
-      <button
-        class="kategori-item"
-        data-category="ALAT LINTING"
-        onclick="openKategori('ALAT LINTING')">
+      <button class="kategori-item" data-category="ALAT LINTING" onclick="openKategori('ALAT LINTING')">
         ■ ALAT LINTING
       </button>
 
-      <button
-        class="kategori-item"
-        data-category="BUSA / FILTER / SPONS"
-        onclick="openKategori('BUSA / FILTER / SPONS')">
+      <button class="kategori-item" data-category="BUSA / FILTER / SPONS" onclick="openKategori('BUSA / FILTER / SPONS')">
         ■ BUSA / FILTER / SPONS
       </button>
 
-      <button
-        class="kategori-item"
-        data-category="TEMBAKAU NUSANTARA"
-        onclick="openKategori('TEMBAKAU NUSANTARA')">
+      <button class="kategori-item" data-category="TEMBAKAU NUSANTARA" onclick="openKategori('TEMBAKAU NUSANTARA')">
         ■ TEMBAKAU NUSANTARA
       </button>
 
-      <button
-        class="kategori-item"
-        data-category="AKSESORIS ROKOK"
-        onclick="openKategori('AKSESORIS ROKOK')">
+      <button class="kategori-item" data-category="AKSESORIS ROKOK" onclick="openKategori('AKSESORIS ROKOK')">
         ■ AKSESORIS ROKOK
       </button>
 
-      <button
-        class="kategori-item"
-        data-category="DLL"
-        onclick="openKategori('DLL')">
+      <button class="kategori-item" data-category="DLL" onclick="openKategori('DLL')">
         ■ DLL
       </button>
     </div>
 
-    <!-- JUDUL KATEGORI TERPILIH -->
     <h2 id="judulKategori" class="judul-kategori" style="display:none;"></h2>
-
-    <!-- GRID PRODUK (AKAN DIISI DARI JS) -->
     <div class="products" id="productGrid" style="display:none;"></div>
 
-    <!-- DETAIL PRODUK -->
     <article id="detail-box" class="detail-panel hidden" aria-hidden="true">
       <button class="back-btn" onclick="backToProduk()">◀ Kembali</button>
 
       <div id="detail-content" class="detail-content">
 
-        <!-- GALERI GAMBAR -->
         <div class="gallery-box">
           <img id="detailImg" class="main-img" src="" alt="Gambar Detail Produk" />
           <div id="thumbContainer" class="thumb-row"></div>
         </div>
 
-        <!-- DETAIL KANAN -->
         <aside class="right-col">
           <h2 id="detailNama">Nama Produk</h2>
 
-          <p class="merk-top">
-            <strong>Merk:</strong>
-            <span id="detailMerk"></span>
-          </p>
-
+          <p class="merk-top"><strong>Merk:</strong> <span id="detailMerk"></span></p>
           <div class="price" id="detailPrice">Rp 0</div>
-
           <p class="lead" id="detailLead">Ringkasan singkat produk.</p>
-
           <div class="full-desc" id="detailDesk"></div>
 
           <div class="specs">
             <p><strong>Rasa:</strong> <span id="detailRasa"></span></p>
             <p><strong>Isi:</strong> <span id="detailIsi"></span></p>
-            <p><strong>Size:</strong> <span id="detailSize"></span></p>
-            <p><strong>Berat:</strong> <span id="detailBerat"></span></p>
+            <p><strong>Size:</strong> <span id="detailBerat"></span></p>
+            <p><strong>Berat:</strong> <span id="detailSize"></span></p>
             <p><strong>Stok:</strong> <span id="detailStock"></span></p>
           </div>
 
@@ -131,25 +99,18 @@
 
   </main>
 
-  <!-- FLOATING CART -->
-  <button id="cart-float" type="button">
-    🛒 <span id="cart-count">0</span>
-  </button>
+  <button id="cart-float" type="button">🛒 <span id="cart-count">0</span></button>
 
-  <!-- PANEL KERANJANG -->
   <div id="cart-panel" class="overlay">
     <div id="cart-box" class="cart-box">
       <h2>Keranjang</h2>
       <div id="cart-items"></div>
-
       <h3>Total: Rp <span id="cart-total">0</span></h3>
-
       <button id="checkout" class="checkout-btn" type="button">Checkout</button>
       <button id="close-cart" class="close-btn" type="button">Tutup</button>
     </div>
   </div>
 
-  <!-- PANEL ALAMAT / CHECKOUT -->
   <div id="alamat-panel" class="overlay">
     <div class="alamat-box">
       <h2>Masukkan Data Pengiriman</h2>
@@ -176,18 +137,12 @@
         <option>Qris</option>
       </select>
 
-      <button id="confirm-alamat" class="alamat-btn" type="button">
-        Kirim via WhatsApp
-      </button>
-      <button id="close-alamat" class="alamat-btn" type="button">
-        Batal
-      </button>
+      <button id="confirm-alamat" class="alamat-btn" type="button">Kirim via WhatsApp</button>
+      <button id="close-alamat" class="alamat-btn" type="button">Batal</button>
     </div>
   </div>
 
-  <footer>
-    © 2025 Toko Bako Linting - Semua hak dilindungi.
-  </footer>
+  <footer>© 2025 Toko Bako Linting - Semua hak dilindungi.</footer>
 
   <!-- FILE JAVASCRIPT -->
   <script src="script.js"></script>
