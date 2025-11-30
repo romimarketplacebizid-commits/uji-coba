@@ -7,22 +7,42 @@ body {
   color: #3a2f22;
 }
 
-/* HEADER */
+/* =========================================
+   HEADER ORANGE + BRAND (LOGO KIRI)
+========================================= */
 header {
-  background: #4b3928;
-  padding: 25px 0;
-  text-align: center;
+  background: #ff8a1f;
+  padding: 14px 0;
   color: #fff;
   box-shadow: 0 4px 10px rgba(0,0,0,.15);
 }
+
+header .brand {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+header .brand img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255,255,255,0.8);
+}
+
 header h1 {
-  font-size: 32px;
+  font-size: 24px;
   margin: 0;
   font-weight: 700;
 }
+
 header p {
-  margin-top: 6px;
-  font-size: 15px;
+  margin-top: 4px;
+  font-size: 13px;
   opacity: .9;
 }
 
@@ -54,11 +74,14 @@ header p {
   transition: .2s;
 }
 .kategori-item:hover {
-  background: #f3efe8;
+  background: #ffe2bf;
   color: #b56b40;
+  border-color: #ffc273;
 }
 
-/* GRID PRODUK */
+/* =========================================
+   GRID PRODUK MODERN
+========================================= */
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -118,15 +141,18 @@ header p {
   margin-bottom: 12px;
 }
 
+/* TOMBOL DI KARTU */
 .add-cart-btn {
-  background: #ffa31a;
-  color: #fff;
-  padding: 8px 14px;
-  border-radius: 8px;
+  background:#ff9800;
+  color:white;
+  padding: 8px 15px;
+  display:block;
+  text-align:center;
+  border-radius:8px;
+  margin-top:8px;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
-  width: 100%;
   border: none;
   transition: .15s;
 }
@@ -253,16 +279,6 @@ header p {
   border-radius: 8px;
 }
 
-.add-cart-btn {
-  background:#ff9800;
-  color:white;
-  padding: 8px 15px;
-  display:block;
-  text-align:center;
-  border-radius:8px;
-  margin-top:8px;
-}
-
 /* BACK BUTTON */
 .back-btn {
   cursor: pointer;
@@ -287,8 +303,8 @@ header p {
   box-shadow: 0 6px 18px rgba(0,0,0,.2);
 }
 
-/* MODAL BACKDROP */
-#cart-panel, #alamat-panel {
+/* MODAL BACKDROP (KERANJANG) */
+#cart-panel {
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
@@ -299,7 +315,7 @@ header p {
   z-index: 1300;
 }
 
-/* KERANJANG BOX (VERSI BAGUS) */
+/* KERANJANG BOX */
 #cart-box {
   background: #fff;
   width: 92%;
@@ -405,22 +421,9 @@ header p {
   to { opacity: 1; }
 }
 
-/* RESPONSIVE */
-@media (max-width: 920px) {
-  .detail-content { flex-direction: column; }
-  .main-img { height: 260px; }
-  .thumb-row img { width: 56px; height: 56px; }
-}
-
-@media (max-width: 480px) {
-  .kategori-item { font-size: 14px; padding: 8px 10px; }
-  .product-name { font-size: 14px; }
-  .product-price { font-size: 16px; }
-}
-
-/* ===========================================
-   ALAMAT MODAL POPUP (WAJIB ADA)
-=========================================== */
+/* =========================================
+   ALAMAT MODAL POPUP
+========================================= */
 #alamat-panel {
   position: fixed;
   top: 0;
@@ -478,4 +481,86 @@ header p {
 #close-alamat {
   background: #d40000;
   color: white;
+}
+
+/* =========================================
+   TAMBAHAN STYLE (JUDUL, FOOTER, DLL)
+========================================= */
+
+/* Judul di atas kategori */
+.section-title {
+  text-align: center;
+  margin: 0 0 16px 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #4b3625;
+}
+
+/* Judul kategori yang aktif */
+.judul-kategori {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #523822;
+}
+
+/* Teks merk dan ringkasan di detail */
+.merk-top {
+  font-size: 14px;
+  color: #7a5c3b;
+  margin: 4px 0 6px 0;
+}
+
+.lead {
+  font-size: 14px;
+  color: #6b5441;
+  margin-top: 4px;
+}
+
+/* Samakan font tombol dengan body */
+button {
+  font-family: inherit;
+}
+
+/* Supaya tombol cart tidak ada border default */
+#cart-float {
+  border: none;
+  outline: none;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 40px;
+  padding: 16px 20px;
+  text-align: center;
+  font-size: 13px;
+  color: #8a7b6e;
+  background: #f0e7db;
+  border-top: 1px solid #e0d4c0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 920px) {
+  .detail-content { flex-direction: column; }
+  .main-img { height: 260px; }
+  .thumb-row img { width: 56px; height: 56px; }
+}
+
+@media (max-width: 600px) {
+  header .brand {
+    padding: 0 14px;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  header p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .kategori-item { font-size: 14px; padding: 8px 10px; }
+  .product-name { font-size: 14px; }
+  .product-price { font-size: 16px; }
 }

@@ -3,21 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>produk tembakau (bako linting) & assesoriesnya</title>
+  <title>Produk Tembakau (Bako Linting) & Aksesorinya</title>
 
-  <!-- FAVICON -->
-  <link rel="icon" type="image/png" href="../anjay/gambar/logo toko/logo.jpg toko/logo.jpg" />
+  <!-- FAVICON (opsional, kalau belum ada bisa dihapus) -->
+  <!-- <link rel="icon" type="gambar/logo toko/logo.jpg" href="logo.jpg" /> -->
 
-  <!-- FILE CSS -->
+  <!-- FILE CSS HARUS ADA DI SINI -->
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-  <!-- HEADER -->
+  <!-- HEADER ORANGE DENGAN LOGO DI KIRI -->
   <header>
-    <h1>Produk Tembakau</h1>
-    <p>Kualitas terbaik, harga bersahabat</p>
+    <div class="brand">
+      <!-- GANTI logo.jpg DENGAN NAMA FILE LOGO KAMU -->
+      <img src="gambar/logo toko/logo.jpg" alt="logo.jpg" />
+      <div>
+        <h1>Produk Tembakau</h1>
+        <p>Kualitas terbaik, harga bersahabat</p>
+      </div>
+    </div>
   </header>
 
   <main class="section">
@@ -30,58 +36,41 @@
       <div class="kategori-item" onclick="openKategori('ALAT LINTING')">■ ALAT LINTING</div>
       <div class="kategori-item" onclick="openKategori('BUSA / FILTER / SPONS')">■ BUSA / FILTER / SPONS</div>
       <div class="kategori-item" onclick="openKategori('TEMBAKAU NUSANTARA')">■ TEMBAKAU NUSANTARA</div>
-      <div class="kategori-item" onclick="openKategori('ASESORIS ROKOK')">■ ASESORIS ROKOK</div>
+      <div class="kategori-item" onclick="openKategori('ASESORIS ROKOK')">■ AKSESORIS ROKOK</div>
       <div class="kategori-item" onclick="openKategori('DLL')">■ DLL</div>
     </div>
 
     <h2 id="judulKategori" style="display:none; margin-top:30px;"></h2>
 
-    <!-- GRID PRODUK -->
-    <div class="products modern-grid" id="productGrid" style="display:none;"></div>
+    <!-- GRID PRODUK (ISI DARI JS) -->
+    <div class="products" id="productGrid" style="display:none;"></div>
 
     <!-- DETAIL PRODUK -->
     <article id="detail-box" class="detail-panel hidden" aria-hidden="true">
+
       <button class="back-btn" onclick="backToProduk()">◀ Kembali</button>
 
       <div id="detail-content" class="detail-content">
 
-        <!-- FOTO KATALOG -->
-        <div class="left-col">
-          <div class="catalog-photos">
-            <img id="catalogPrimary" class="catalog-primary" src="" alt="">
-            <div class="catalog-secondary-row">
-              <img id="catalogSecondary1" class="catalog-secondary" src="" alt="">
-              <img id="catalogSecondary2" class="catalog-secondary" src="" alt="">
-            </div>
-          </div>
-        </div>
-
-        <!-- GALERI DETAIL -->
+        <!-- KARENA KIRI DIHILANGKAN, PAKAI GALERI TENGAH + KANAN -->
         <div class="gallery-box">
-          <img id="detailImg" class="main-img" src="" alt="detail gambar">
+          <img id="detailImg" class="main-img" src="" alt="Gambar Detail Produk">
           <div id="thumbContainer" class="thumb-row"></div>
         </div>
 
-        <!-- INFO DETAIL (FIX FINAL) -->
         <aside class="right-col">
-          
           <h2 id="detailNama">Nama Produk</h2>
 
-          <!-- MERK DIPALING ATAS -->
           <p class="merk-top">
             <strong>Merk:</strong> <span id="detailMerk"></span>
           </p>
 
-          <!-- HARGA -->
           <div class="price" id="detailPrice">Rp 0</div>
 
-          <!-- RINGKASAN SINGKAT -->
           <p class="lead" id="detailLead">Ringkasan singkat produk.</p>
 
-          <!-- DESKRIPSI 4 BARIS -->
           <div class="full-desc" id="detailDesk"></div>
 
-          <!-- SPESIFIKASI LAIN -->
           <div class="specs">
             <p><strong>Rasa:</strong> <span id="detailRasa"></span></p>
             <p><strong>Isi:</strong> <span id="detailIsi"></span></p>
@@ -96,7 +85,6 @@
               <input id="detailQty" type="number" value="1" min="1" />
               <button class="btn ghost" onclick="changeDetailQty(1)">+</button>
             </div>
-
             <button id="detailAddCart" class="btn">+ Keranjang</button>
           </div>
         </aside>
@@ -113,11 +101,8 @@
   <div id="cart-panel">
     <div id="cart-box">
       <h2>Keranjang</h2>
-
       <div id="cart-items"></div>
-
       <h3>Total: Rp <span id="cart-total">0</span></h3>
-
       <button id="checkout" class="checkout-btn">Checkout</button>
       <button id="close-cart" class="close-btn">Tutup</button>
     </div>
@@ -155,11 +140,11 @@
     </div>
   </div>
 
-  <script src="script.js"></script>
-
   <footer>
-    © 2025 Toko Rokok Digital - Semua hak dilindungi.
+    © 2025 Toko Bako Linting - Semua hak dilindungi.
   </footer>
 
+  <!-- JS -->
+  <script src="script.js"></script>
 </body>
 </html>

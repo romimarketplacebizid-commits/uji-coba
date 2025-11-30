@@ -29,8 +29,9 @@ const produkList = [
     berat: 200,
     kategori: "PAPIR / KERTAS LINTING",
     gambar: [
-      "../ANJAY/gambar/PAPIR_KERTAS_LINTING/MILD_MERAH/MILD_MERAH 1.jpg",
-      "../ANJAY/gambar/PAPIR_KERTAS_LINTING/MILD_MERAH/MILD_MERAH 2.jpg"
+      "gambar/PAPIR/MILD_MERAH/IMG-20251122-WA0042.jpg",
+      "gambar/PAPIR/MILD_MERAH/MILD_MERAH 1.jpg",
+      "gambar/PAPIR/MILD_MERAH/MILD_MERAH 2.jpg"
     ],
     deskripsi: [
       "Nikmati Citarasa Lintingan Sendiri.",
@@ -50,9 +51,9 @@ const produkList = [
     berat: 200,
     kategori: "PAPIR / KERTAS LINTING",
     gambar: [
-      "../ANJAY/gambar/PAPIR_KERTAS_LINTING/MILD_HIJAU/MILD_HIJAU-1.jpg",
-      "../ANJAY/gambar/PAPIR_KERTAS_LINTING/MILD_HIJAU/MILD_HIJAU-2.jpg",
-      "../ANJAY/gambar/PAPIR_KERTAS_LINTING/MILD_HIJAU/MILD_HIJAU-3.jpg"
+      "gambar/PAPIR/MILD_HIJAU/MILD_HIJAU-3.jpg",
+      "gambar/PAPIR/MILD_HIJAU/MILD_HIJAU-2.jpg",
+      "gambar/PAPIR/MILD_HIJAU/MILD_HIJAU-1.jpg"
     ],
     deskripsi: [
       "Nikmati Citarasa Lintingan Sendiri.",
@@ -62,7 +63,7 @@ const produkList = [
     ],
   },
   {
-    nama: "Papir DUNMIL 1 Bundel Utuh",
+    nama: "DUNMIL Papir 1 Bundel Besar Utuh 2.000 Lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -72,9 +73,162 @@ const produkList = [
     berat: 200,
     kategori: "PAPIR / KERTAS LINTING",
     gambar: [
-      "../ANJAY/gambar/PAPIR_KERTAS_LINTING/MILD_PINK/MILD_PINK-1.jpg",
-      "../ANJAY/gambar/PAPIR_KERTAS_LINTING/MILD_PINK/MILD_PINK-2.jpg",
-      "../ANJAY/gambar/PAPIR_KERTAS_LINTING/MILD_PINK/MILD_PINK-3.jpg"
+      "gambar/PAPIR/DUNMIL_Papir_1 Bundel_Besar_Utuh_2.000_Lembar/MILD_PINK-2.jpg",
+      "gambar/PAPIR/DUNMIL_Papir_1 Bundel_Besar_Utuh_2.000_Lembar/IMG-20251122-WA0028.jpg",
+      "gambar/PAPIR/DUNMIL_Papir_1 Bundel_Besar_Utuh_2.000_Lembar/IMG-20251122-WA0041.jpg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+    {
+    nama: "LA Papir 1 Bundel Besar Utuh 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4x9 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/LA_PPAPIR_1_BANDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0048.jpg",
+      "gambar/PAPIR/LA_PPAPIR_1_BANDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0049.jpg",
+      "gambar/PAPIR/LA_PPAPIR_1_BANDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0030.jpg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+    {
+    nama: "CLASS MILD Papir 1 Bundel Besar Utuh 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4x9 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/CLASS_MILD_PAPIR_1_BANDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0037.jpg",
+      "gambar/PAPIR/CLASS_MILD_PAPIR_1_BANDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0027.jpg",
+      "gambar/PAPIR/CLASS_MILD_PAPIR_1_BANDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0041.jpg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+    {
+    nama: "EXLUSIVE Papir 1 Bundel Besar Utuh 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4x9 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/EXLUSIVE-Papir-1-Bundel-Besar-Utuh-2.000-lembar/IMG-20251122-WA0038.jpg",
+      "gambar/PAPIR/EXLUSIVE-Papir-1-Bundel-Besar-Utuh-2.000-lembar/IMG-20251122-WA0024.jpg",
+      "gambar/PAPIR/EXLUSIVE-Papir-1-Bundel-Besar-Utuh-2.000-lembar/IMG-20251122-WA0025.jpg",
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+    {
+    nama: "SURYA Papir 1 Bundel Besar Utuh 2.000 lembarr",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4x9 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/SURYA_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/MILD_ORANGE-2.jpg",
+      "gambar/PAPIR/SURYA_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0057.jpg",
+      "gambar/PAPIR/SURYA_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0056.jpg",
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+      {
+    nama: "SURYA Papir 1 Bundel Besar Utuh 2.000 lembarr",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4x9 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/MILD_JINGGA/IMG-20251122-WA0039.jpg",
+      "gambar/PAPIR/MILD_JINGGA/WhatsApp Image 2025-11-29 at 21.11.38.jpeg",
+      "gambar/PAPIR/MILD_JINGGA/WhatsApp Image 2025-11-29 at 21.11.41.jpeg",
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+    {
+    nama: "SAMSU KUNING Papir 1 Bundel Besar Utuh 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4x9 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0059.jpg",
+      "gambar/PAPIR/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0060.jpg",
+      "gambar/PAPIR/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0041.jpg",
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+    {
+    nama: "SUPER 1 Bundel Utuh 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4x9 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/Papir-SUPER-1-Bundel-Utuh-2.000-lembar/SUPER-2.jpeg",
+      "gambar/PAPIR/Papir-SUPER-1-Bundel-Utuh-2.000-lembar/SUPER-1.jpeg",
     ],
     deskripsi: [
       "Nikmati Citarasa Lintingan Sendiri.",
