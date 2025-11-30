@@ -199,7 +199,7 @@ const produkList = [
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
-    size: "4x9 cm",
+    size: "4,3x8 cm",
     harga: 21000,
     stok: 1000,
     berat: 200,
