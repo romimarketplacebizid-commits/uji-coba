@@ -77,7 +77,7 @@ const produkList = [
       "gambar/PAPIR/DUNMIL_Papir_1 Bundel_Besar_Utuh_2.000_Lembar/IMG-20251122-WA0028.jpg",
       "gambar/PAPIR/DUNMIL_Papir_1 Bundel_Besar_Utuh_2.000_Lembar/IMG-20251122-WA0041.jpg"
     ],
-    deskripsi: [
+    deskripsi: [,
       "Nikmati Citarasa Lintingan Sendiri.",
       "Nyalakan Semangat Mu...",
       "Bangkitkan Inspirasi Mu...",
