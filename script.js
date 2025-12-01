@@ -77,14 +77,14 @@ const produkList = [
       "gambar/PAPIR/DUNMIL_Papir_1 Bundel_Besar_Utuh_2.000_Lembar/IMG-20251122-WA0028.jpg",
       "gambar/PAPIR/DUNMIL_Papir_1 Bundel_Besar_Utuh_2.000_Lembar/IMG-20251122-WA0041.jpg"
     ],
-    deskripsi: [,
+    deskripsi: [
       "Nikmati Citarasa Lintingan Sendiri.",
       "Nyalakan Semangat Mu...",
       "Bangkitkan Inspirasi Mu...",
       "Happy Kaum Lintingers..."
     ],
   },
-    {
+  {
     nama: "LA Papir 1 Bundel Besar Utuh 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -106,7 +106,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-    {
+  {
     nama: "CLASS MILD Papir 1 Bundel Besar Utuh 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -128,7 +128,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-    {
+  {
     nama: "EXLUSIVE Papir 1 Bundel Besar Utuh 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -141,7 +141,7 @@ const produkList = [
     gambar: [
       "gambar/PAPIR/EXLUSIVE-Papir-1-Bundel-Besar-Utuh-2.000-lembar/IMG-20251122-WA0038.jpg",
       "gambar/PAPIR/EXLUSIVE-Papir-1-Bundel-Besar-Utuh-2.000-lembar/IMG-20251122-WA0024.jpg",
-      "gambar/PAPIR/EXLUSIVE-Papir-1-Bundel-Besar-Utuh-2.000-lembar/IMG-20251122-WA0025.jpg",
+      "gambar/PAPIR/EXLUSIVE-Papir-1-Bundel-Besar-Utuh-2.000-lembar/IMG-20251122-WA0025.jpg"
     ],
     deskripsi: [
       "Nikmati Citarasa Lintingan Sendiri.",
@@ -150,7 +150,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-    {
+  {
     nama: "SURYA Papir 1 Bundel Besar Utuh 2.000 lembarr",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -163,7 +163,7 @@ const produkList = [
     gambar: [
       "gambar/PAPIR/SURYA_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/MILD_ORANGE-2.jpg",
       "gambar/PAPIR/SURYA_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0057.jpg",
-      "gambar/PAPIR/SURYA_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0056.jpg",
+      "gambar/PAPIR/SURYA_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0056.jpg"
     ],
     deskripsi: [
       "Nikmati Citarasa Lintingan Sendiri.",
@@ -172,7 +172,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-      {
+  {
     nama: "SURYA Papir 1 Bundel Besar Utuh 2.000 lembarr",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -185,7 +185,7 @@ const produkList = [
     gambar: [
       "gambar/PAPIR/MILD_JINGGA/IMG-20251122-WA0039.jpg",
       "gambar/PAPIR/MILD_JINGGA/WhatsApp Image 2025-11-29 at 21.11.38.jpeg",
-      "gambar/PAPIR/MILD_JINGGA/WhatsApp Image 2025-11-29 at 21.11.41.jpeg",
+      "gambar/PAPIR/MILD_JINGGA/WhatsApp Image 2025-11-29 at 21.11.41.jpeg"
     ],
     deskripsi: [
       "Nikmati Citarasa Lintingan Sendiri.",
@@ -194,7 +194,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-    {
+  {
     nama: "SAMSU KUNING Papir 1 Bundel Besar Utuh 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -207,7 +207,7 @@ const produkList = [
     gambar: [
       "gambar/PAPIR/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0059.jpg",
       "gambar/PAPIR/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0060.jpg",
-      "gambar/PAPIR/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0041.jpg",
+      "gambar/PAPIR/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0041.jpg"
     ],
     deskripsi: [
       "Nikmati Citarasa Lintingan Sendiri.",
@@ -216,7 +216,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-    {
+  {
     nama: "SUPER 1 Bundel Utuh 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -228,13 +228,128 @@ const produkList = [
     kategori: "PAPIR / KERTAS LINTING",
     gambar: [
       "gambar/PAPIR/Papir-SUPER-1-Bundel-Utuh-2.000-lembar/SUPER-2.jpeg",
-      "gambar/PAPIR/Papir-SUPER-1-Bundel-Utuh-2.000-lembar/SUPER-1.jpeg",
+      "gambar/PAPIR/Papir-SUPER-1-Bundel-Utuh-2.000-lembar/SUPER-1.jpeg"
     ],
     deskripsi: [
       "Nikmati Citarasa Lintingan Sendiri.",
       "Nyalakan Semangat Mu...",
       "Bangkitkan Inspirasi Mu...",
       "Happy Kaum Lintingers..."
+    ],
+  },
+  {
+    nama: "Papir GG.FILTER 1 Bundel Utuh 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4x9 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/MILD_COKELAT/IMG-20251122-WA0035.jpg",
+      "gambar/PAPIR/MILD_COKELAT/IMG-20251122-WA0020.jpg",
+      "gambar/PAPIR/MILD_COKELAT/IMG-20251122-WA0021.jpg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+  {
+    nama: "MARLONG Papir 1 Bundel Besar Utuh 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4x9 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/MARLONG_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0036.jpg",
+      "gambar/PAPIR/MARLONG_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0029.jpg",
+      "gambar/PAPIR/MARLONG_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0051.jpg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+  {
+    nama: "BLANK Papir 1 Bundel Besar Utuh 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4x9 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/BLANK_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0052.jpg",
+      "gambar/PAPIR/BLANK_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0053.jpg",
+      "gambar/PAPIR/BLANK_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0022.jpg",
+      "gambar/PAPIR/BLANK_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0054.jpg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+  {
+    nama: "SAMSU HITAM Papir 1 Bundel Besar Utuh 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4x9 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/SAMSU_HITAM_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0061.jpg",
+      "gambar/PAPIR/SAMSU_HITAM_Papir_1_Bundel_Besar_Utuh_2.000_lembar/WhatsApp Image 2025-11-29 at 21.19.09.jpeg",
+      "gambar/PAPIR/SAMSU_HITAM_Papir_1_Bundel_Besar_Utuh_2.000_lembar/WhatsApp Image 2025-11-29 at 21.19.10.jpeg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+
+  /* ===========================
+     PRODUK BUSA/FILTER
+  ============================ */
+  {
+    nama: "MILD 1 Klik Rasa ANGGUR 30 gr",
+    merk: "MILD",
+    rasa: "Anggur",
+    isi: 170 ,                 // isi 30 gr
+    size: "Mild 1 klik",
+    harga: 13000,
+    stok: 1000,
+    berat: 30,
+    kategori: "BUSA / FILTER / SPONS",
+    gambar: [
+      "gambar/BUSA/BUSA_ANGGUR/IMG-20251122-WA0080.jpg",
+      "gambar/BUSA/BUSA_ANGGUR/IMG-20251122-WA0074.jpg",
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers...",
+      "Ukuran: Mild 1 klik · Rasa ANGGUR · Isi 30 gr · Quality Premium."
     ],
   },
 ];
@@ -330,32 +445,39 @@ function showDetail(nama) {
     thumb.appendChild(t);
   });
 
-  /* ============= FIX DESKRIPSI — AUTO 4 BARIS ============= */
+  /* ============= DESKRIPSI ============= */
 
   let leadText = "";
   let fullDesc = "";
 
-if (Array.isArray(p.deskripsi)) {
-  leadText = p.deskripsi[0];
-  fullDesc = p.deskripsi
-    .slice(1)
-    .map(d => `<p>${d}</p>`)
-    .join("");
-} else {
-  leadText = p.deskripsi;
-  fullDesc = `<p>${p.deskripsi}</p>`;
-}
-
+  if (Array.isArray(p.deskripsi)) {
+    leadText = p.deskripsi[0];
+    fullDesc = p.deskripsi
+      .slice(1)
+      .map(d => `<p>${d}</p>`)
+      .join("");
+  } else {
+    leadText = p.deskripsi;
+    fullDesc = `<p>${p.deskripsi}</p>`;
+  }
 
   document.getElementById("detailLead").textContent = leadText;
   document.getElementById("detailDesk").innerHTML = fullDesc;
 
   /* DETAIL LAIN */
   document.getElementById("detailNama").textContent = p.nama;
-  document.getElementById("detailPrice").textContent = "Rp " + p.harga.toLocaleString();
+  document.getElementById("detailPrice").textContent =
+    "Rp " + p.harga.toLocaleString();
   document.getElementById("detailMerk").textContent = p.merk;
   document.getElementById("detailRasa").textContent = p.rasa;
-  document.getElementById("detailIsi").textContent = p.isi + " lembar";
+
+  // Isi: untuk produk ANGGUR pakai satuan gr, lainnya lembar
+  if (p.nama === "MILD 1 Klik Rasa ANGGUR 30 gr") {
+    document.getElementById("detailIsi").textContent = p.isi + " gr";
+  } else {
+    document.getElementById("detailIsi").textContent = p.isi + " lembar";
+  }
+
   document.getElementById("detailSize").textContent = p.size;
   document.getElementById("detailBerat").textContent = formatBerat(p.berat);
   document.getElementById("detailStock").textContent = p.stok;
@@ -382,11 +504,12 @@ if (Array.isArray(p.deskripsi)) {
 function updateSlide() {
   if (!currentProduct) return;
 
-  document.getElementById("detailImg").src = currentProduct.gambar[slideIndex];
+  document.getElementById("detailImg").src =
+    currentProduct.gambar[slideIndex];
 
-  document.querySelectorAll("#thumbContainer img").forEach((el, i) =>
-    el.classList.toggle("active", i === slideIndex)
-  );
+  document
+    .querySelectorAll("#thumbContainer img")
+    .forEach((el, i) => el.classList.toggle("active", i === slideIndex));
 }
 
 function nextSlide() {
@@ -394,7 +517,9 @@ function nextSlide() {
   updateSlide();
 }
 function prevSlide() {
-  slideIndex = (slideIndex - 1 + currentProduct.gambar.length) % currentProduct.gambar.length;
+  slideIndex =
+    (slideIndex - 1 + currentProduct.gambar.length) %
+    currentProduct.gambar.length;
   updateSlide();
 }
 
@@ -467,7 +592,8 @@ function renderCart() {
     `;
   });
 
-  document.getElementById("cart-total").textContent = total.toLocaleString();
+  document.getElementById("cart-total").textContent =
+    total.toLocaleString();
 }
 
 /* ============================================================
@@ -541,9 +667,10 @@ document.getElementById("confirm-alamat").onclick = () => {
     totalBarang += subtotal;
     totalBerat += b;
 
-    text += `${i + 1}. ${item.nama} — ${item.qty}x%0A` +
-            `   Berat: ${formatBerat(b)}%0A` +
-            `   Rp${subtotal.toLocaleString()}%0A`;
+    text +=
+      `${i + 1}. ${item.nama} — ${item.qty}x%0A` +
+      `   Berat: ${formatBerat(b)}%0A` +
+      `   Rp${subtotal.toLocaleString()}%0A`;
   });
 
   text += `%0A*Total Berat:* ${formatBerat(totalBerat)}`;
@@ -553,7 +680,10 @@ document.getElementById("confirm-alamat").onclick = () => {
   text += `%0A*Pembayaran:* ${payment}`;
   text += `%0A%0AMohon diproses 😊`;
 
-  window.open(`https://wa.me/${nomorWA}?text=${encodeURIComponent(text)}`, "_blank");
+  window.open(
+    `https://wa.me/${nomorWA}?text=${encodeURIComponent(text)}`,
+    "_blank"
+  );
 
   document.getElementById("alamat-panel").style.display = "none";
 };
