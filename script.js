@@ -558,6 +558,56 @@ const produkList = [
      BELUM ADA DAN SEGERA HADIR
   ============================ */
 
+{
+  nama: " Hornet 110mm Ukuran MILDS",
+  merk: "Firetric",
+  isi: 1,
+  size: "Ukuran Rokok 10 x 110 mm",
+  harga: 0,             // GANTI HARGA
+  stok: 100,            // GANTI STOK
+  berat: 120,           // 0.12 kg = 120 gr
+  kategori: "ALAT LINTING",
+  gambar: [
+    "gambar/ALAT-LINTING/Hornet-110mm-Ukuran-MILD/WhatsApp Image 2025-12-02 at 21.10.11.jpeg",
+    "gambar/ALAT-LINTING/Hornet-110mm-Ukuran-MILD/WhatsApp Image 2025-12-02 at 21.10.41 (1).jpeg",
+    "gambar/ALAT-LINTING/Hornet-110mm-Ukuran-MILD/WhatsApp Image 2025-12-02 at 21.10.41.jpeg"
+  ],
+
+  deskripsi: [
+    "Brand: Firetric",
+    "Garansi: -",
+    "Berat Produk: 0.12 kg",
+    "Dimensi Kemasan: -",
+    "",
+    "Keunggulan Produk:",
+    "🔹 Bodinya terbuat dari metal yang kokoh, awet, dan tampak premium.",
+    "🔹 Proses linting lebih rapi berkat adanya penutup metal.",
+    "🔹 Menghasilkan ukuran rokok 10 x 110 mm yang banyak disukai.",
+    "🔹 Desain ringkas sehingga mudah dibawa bepergian.",
+    "",
+    "Overview:",
+    "Sebagai penikmat rokok, melinting rokok sendiri memberikan kepuasan yang berbeda. Selain lebih murah, Anda dapat memilih rasa tembakau sesuai selera.",
+    "Untuk mempercepat proses melinting, Firetric menghadirkan alat linting rokok manual yang bekerja secara mekanis untuk memasukkan tembakau ke dalam gulungan kertas rokok.",
+    "Dengan alat ini, Anda bisa mendapatkan lintingan rokok yang rapi, padat, dan konsisten dalam waktu singkat.",
+    "",
+    "Fitur:",
+    "Melinting Jadi Lebih Mudah — Roller dirancang khusus untuk membantu memasukkan tembakau ke dalam kertas rokok, menghasilkan lintingan yang padat dan konsisten.",
+    "",
+    "Lebih Rapi dengan Penutup — Penutup metal dapat dibuka-tutup agar proses linting tetap rapi dan efisien.",
+    "",
+    "Ukuran Rokok Sempurna — Menghasilkan rokok diameter 10 mm dan panjang 110 mm, ukuran populer yang nyaman dinikmati.",
+    "",
+    "Desain Ringkas dan Ringan — Mudah dibawa bepergian dan tidak membutuhkan tempat penyimpanan khusus.",
+    "",
+    "Material Kokoh dan Awet — Rangka metal kuat dan plastik berkualitas memastikan alat linting awet dalam jangka panjang.",
+    "",
+    "Kelengkapan Produk:",
+    "1 x Firetric Alat Linting Rokok Manual Tobacco Roller 10x110mm - TN902"
+  ],
+},
+
+
+
   
 ];
 
