@@ -19,7 +19,7 @@ function formatBerat(gram) {
 ============================================================ */
 const produkList = [
   {
-    nama: "MILD MERAH",
+    nama: "MILD MERAH Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -41,7 +41,7 @@ const produkList = [
     ],
   },
   {
-    nama: "MILD Hijau",
+    nama: "MILD HIJAU Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -63,7 +63,7 @@ const produkList = [
     ],
   },
   {
-    nama: "LA",
+    nama: "LA Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -84,8 +84,8 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-  {
-    nama: "MBR TAWAR",
+    {
+    nama: "MBR TAWAR Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "TAWAR",
     isi: 2000,
@@ -106,8 +106,8 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-  {
-    nama: "MBR MANIS",
+    {
+    nama: "MBR MANIS Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "MANIS SEDANG",
     isi: 2000,
@@ -128,8 +128,9 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-  {
-    nama: "CLASS MILD",
+  
+   {
+    nama: "CLASS MILD Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -149,9 +150,9 @@ const produkList = [
       "Bangkitkan Inspirasi Mu...",
       "Happy Kaum Lintingers..."
     ],
-  },
-  {
-    nama: "DUNMIL",
+   },
+   {
+    nama: "DUNMIL Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -172,8 +173,9 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
+
     {
-    nama: "GF SAMSU KUNING",
+    nama: "GF SAMSU KUNING Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -183,9 +185,9 @@ const produkList = [
     berat: 200,
     kategori: "PAPIR / KERTAS LINTING",
     gambar: [
-      "gambar/PAPIR/GF/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0059.jpg",
-      "gambar/PAPIR/GF/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0060.jpg",
-      "gambar/PAPIR//GFSAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0041.jpg"
+      "gambar/PAPIR/GF/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/SAMSU-KUNING-1.jpg",
+      "gambar/PAPIR/GF/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/SAMSU-KUNING-2.jpg",
+      "gambar/PAPIR/GF/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/SAMSU-KUNING-3.jpg"
     ],
     deskripsi: [
       "Nikmati Citarasa Lintingan Sendiri.",
@@ -195,7 +197,7 @@ const produkList = [
     ],
   },
     {
-    nama: "SAMSU HITAM",
+    nama: "SAMSU HITAM Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -217,7 +219,7 @@ const produkList = [
     ],
   },
     {
-    nama: "EXLUSIVE",
+    nama: "EXLUSIVE Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -239,7 +241,7 @@ const produkList = [
     ],
   },
     {
-    nama: "BLANK",
+    nama: "BLANK Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -307,7 +309,7 @@ const produkList = [
       "Ukuran: Mild 1 klik · Rasa BUBLEGUME · Isi 30 gr · Quality Premium."
     ],
   },
-  {
+    {
     nama: "Mild 1 klik Rasa APPLE",
     merk: "MILD",
     rasa: "APPLE",
@@ -328,6 +330,7 @@ const produkList = [
       "Ukuran: Mild 1 klik · Rasa APPLE · Isi 30 gr · Quality Premium."
     ],
   },
+  
 ];
 
 /* ============================================================
@@ -371,14 +374,11 @@ function renderProdukKategori(kat) {
     const card = document.createElement("div");
     card.className = "produk-card";
 
-    // DI LUAR: hanya pakai nama asli
-    const displayName = p.nama;
-
     card.innerHTML = `
       <img src="${p.gambar[0]}" onclick="showDetail('${p.nama}')">
 
       <div class="product-info">
-        <h3 class="product-name">${displayName}</h3>
+        <h3 class="product-name">${p.nama}</h3>
 
         <p class="product-stock">Berat: <b>${formatBerat(p.berat)}</b></p>
         <p class="product-price">Rp${p.harga.toLocaleString()}</p>
@@ -443,13 +443,8 @@ function showDetail(nama) {
   document.getElementById("detailLead").textContent = leadText;
   document.getElementById("detailDesk").innerHTML = fullDesc;
 
-  // DI DALAM: tampilkan nama lengkap untuk PAPIR
-  const detailDisplayName =
-    p.kategori === "PAPIR / KERTAS LINTING"
-      ? `${p.nama} Papir 1 Bundel ${p.isi.toLocaleString()} lembar`
-      : p.nama;
-
-  document.getElementById("detailNama").textContent = detailDisplayName;
+  /* DETAIL LAIN */
+  document.getElementById("detailNama").textContent = p.nama;
   document.getElementById("detailPrice").textContent =
     "Rp " + p.harga.toLocaleString();
   document.getElementById("detailMerk").textContent = p.merk;
