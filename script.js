@@ -19,7 +19,7 @@ function formatBerat(gram) {
 ============================================================ */
 const produkList = [
   {
-    nama: "Papir MILD MERAH 1 Bundel Utuh",
+    nama: "MILD MERAH",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -41,7 +41,7 @@ const produkList = [
     ],
   },
   {
-    nama: "Papir MILD Hijau 1 Bundel Utuh",
+    nama: "MILD Hijau",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -63,29 +63,7 @@ const produkList = [
     ],
   },
   {
-    nama: "DUNMIL Papir 1 Bundel Besar Utuh 2.000 Lembar",
-    merk: "OJK",
-    rasa: "Manis Sedang",
-    isi: 2000,
-    size: "4x9 cm",
-    harga: 21000,
-    stok: 1000,
-    berat: 200,
-    kategori: "PAPIR / KERTAS LINTING",
-    gambar: [
-      "gambar/PAPIR/DUNMIL_Papir_1 Bundel_Besar_Utuh_2.000_Lembar/MILD_PINK-2.jpg",
-      "gambar/PAPIR/DUNMIL_Papir_1 Bundel_Besar_Utuh_2.000_Lembar/IMG-20251122-WA0028.jpg",
-      "gambar/PAPIR/DUNMIL_Papir_1 Bundel_Besar_Utuh_2.000_Lembar/IMG-20251122-WA0041.jpg"
-    ],
-    deskripsi: [
-      "Nikmati Citarasa Lintingan Sendiri.",
-      "Nyalakan Semangat Mu...",
-      "Bangkitkan Inspirasi Mu...",
-      "Happy Kaum Lintingers..."
-    ],
-  },
-  {
-    nama: "LA Papir 1 Bundel Besar Utuh 2.000 lembar",
+    nama: "LA",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -107,7 +85,51 @@ const produkList = [
     ],
   },
   {
-    nama: "CLASS MILD Papir 1 Bundel Besar Utuh 2.000 lembar",
+    nama: "MBR TAWAR",
+    merk: "OJK",
+    rasa: "TAWAR",
+    isi: 2000,
+    size: "4x8 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/MBR-TAWAR/MBR-TAWAR-3.jpeg",
+      "gambar/PAPIR/MBR-TAWAR/MBR-TAWAR-1.jpeg",
+      "gambar/PAPIR/MBR-TAWAR/MBR-TAWAR-2.jpeg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+  {
+    nama: "MBR MANIS",
+    merk: "OJK",
+    rasa: "MANIS SEDANG",
+    isi: 2000,
+    size: "4x8 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/MBR-MANIS/MBR-MANIS-1.jpeg",
+      "gambar/PAPIR/MBR-MANIS/MBR-MANIS-2.jpeg",
+      "gambar/PAPIR/MBR-MANIS/MBR-MANIS-3.jpeg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+  {
+    nama: "CLASS MILD",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -129,7 +151,73 @@ const produkList = [
     ],
   },
   {
-    nama: "EXLUSIVE Papir 1 Bundel Besar Utuh 2.000 lembar",
+    nama: "DUNMIL",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4x9 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/DUNMIL_Papir_1 Bundel_Besar_Utuh_2.000_Lembar/MILD_PINK-2.jpg",
+      "gambar/PAPIR/DUNMIL_Papir_1 Bundel_Besar_Utuh_2.000_Lembar/IMG-20251122-WA0028.jpg",
+      "gambar/PAPIR/DUNMIL_Papir_1 Bundel_Besar_Utuh_2.000_Lembar/IMG-20251122-WA0041.jpg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+    {
+    nama: "GF SAMSU KUNING",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4,3x8 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/GF/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0059.jpg",
+      "gambar/PAPIR/GF/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0060.jpg",
+      "gambar/PAPIR//GFSAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0041.jpg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+    {
+    nama: "SAMSU HITAM",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4x9 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/SAMSU_HITAM_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0061.jpg",
+      "gambar/PAPIR/SAMSU_HITAM_Papir_1_Bundel_Besar_Utuh_2.000_lembar/WhatsApp Image 2025-11-29 at 21.19.09.jpeg",
+      "gambar/PAPIR/SAMSU_HITAM_Papir_1_Bundel_Besar_Utuh_2.000_lembar/WhatsApp Image 2025-11-29 at 21.19.10.jpeg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+    {
+    nama: "EXLUSIVE",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -150,139 +238,8 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-  {
-    nama: "SURYA Papir 1 Bundel Besar Utuh 2.000 lembarr",
-    merk: "OJK",
-    rasa: "Manis Sedang",
-    isi: 2000,
-    size: "4x9 cm",
-    harga: 21000,
-    stok: 1000,
-    berat: 200,
-    kategori: "PAPIR / KERTAS LINTING",
-    gambar: [
-      "gambar/PAPIR/SURYA_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/MILD_ORANGE-2.jpg",
-      "gambar/PAPIR/SURYA_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0057.jpg",
-      "gambar/PAPIR/SURYA_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0056.jpg"
-    ],
-    deskripsi: [
-      "Nikmati Citarasa Lintingan Sendiri.",
-      "Nyalakan Semangat Mu...",
-      "Bangkitkan Inspirasi Mu...",
-      "Happy Kaum Lintingers..."
-    ],
-  },
-  {
-    nama: "SURYA Papir 1 Bundel Besar Utuh 2.000 lembarr",
-    merk: "OJK",
-    rasa: "Manis Sedang",
-    isi: 2000,
-    size: "4x9 cm",
-    harga: 21000,
-    stok: 1000,
-    berat: 200,
-    kategori: "PAPIR / KERTAS LINTING",
-    gambar: [
-      "gambar/PAPIR/MILD_JINGGA/IMG-20251122-WA0039.jpg",
-      "gambar/PAPIR/MILD_JINGGA/WhatsApp Image 2025-11-29 at 21.11.38.jpeg",
-      "gambar/PAPIR/MILD_JINGGA/WhatsApp Image 2025-11-29 at 21.11.41.jpeg"
-    ],
-    deskripsi: [
-      "Nikmati Citarasa Lintingan Sendiri.",
-      "Nyalakan Semangat Mu...",
-      "Bangkitkan Inspirasi Mu...",
-      "Happy Kaum Lintingers..."
-    ],
-  },
-  {
-    nama: "SAMSU KUNING Papir 1 Bundel Besar Utuh 2.000 lembar",
-    merk: "OJK",
-    rasa: "Manis Sedang",
-    isi: 2000,
-    size: "4,3x8 cm",
-    harga: 21000,
-    stok: 1000,
-    berat: 200,
-    kategori: "PAPIR / KERTAS LINTING",
-    gambar: [
-      "gambar/PAPIR/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0059.jpg",
-      "gambar/PAPIR/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0060.jpg",
-      "gambar/PAPIR/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0041.jpg"
-    ],
-    deskripsi: [
-      "Nikmati Citarasa Lintingan Sendiri.",
-      "Nyalakan Semangat Mu...",
-      "Bangkitkan Inspirasi Mu...",
-      "Happy Kaum Lintingers..."
-    ],
-  },
-  {
-    nama: "SUPER 1 Bundel Utuh 2.000 lembar",
-    merk: "OJK",
-    rasa: "Manis Sedang",
-    isi: 2000,
-    size: "4x9 cm",
-    harga: 21000,
-    stok: 1000,
-    berat: 200,
-    kategori: "PAPIR / KERTAS LINTING",
-    gambar: [
-      "gambar/PAPIR/Papir-SUPER-1-Bundel-Utuh-2.000-lembar/SUPER-2.jpeg",
-      "gambar/PAPIR/Papir-SUPER-1-Bundel-Utuh-2.000-lembar/SUPER-1.jpeg"
-    ],
-    deskripsi: [
-      "Nikmati Citarasa Lintingan Sendiri.",
-      "Nyalakan Semangat Mu...",
-      "Bangkitkan Inspirasi Mu...",
-      "Happy Kaum Lintingers..."
-    ],
-  },
-  {
-    nama: "Papir GG.FILTER 1 Bundel Utuh 2.000 lembar",
-    merk: "OJK",
-    rasa: "Manis Sedang",
-    isi: 2000,
-    size: "4x9 cm",
-    harga: 21000,
-    stok: 1000,
-    berat: 200,
-    kategori: "PAPIR / KERTAS LINTING",
-    gambar: [
-      "gambar/PAPIR/MILD_COKELAT/IMG-20251122-WA0035.jpg",
-      "gambar/PAPIR/MILD_COKELAT/IMG-20251122-WA0020.jpg",
-      "gambar/PAPIR/MILD_COKELAT/IMG-20251122-WA0021.jpg"
-    ],
-    deskripsi: [
-      "Nikmati Citarasa Lintingan Sendiri.",
-      "Nyalakan Semangat Mu...",
-      "Bangkitkan Inspirasi Mu...",
-      "Happy Kaum Lintingers..."
-    ],
-  },
-  {
-    nama: "MARLONG Papir 1 Bundel Besar Utuh 2.000 lembar",
-    merk: "OJK",
-    rasa: "Manis Sedang",
-    isi: 2000,
-    size: "4x9 cm",
-    harga: 21000,
-    stok: 1000,
-    berat: 200,
-    kategori: "PAPIR / KERTAS LINTING",
-    gambar: [
-      "gambar/PAPIR/MARLONG_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0036.jpg",
-      "gambar/PAPIR/MARLONG_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0029.jpg",
-      "gambar/PAPIR/MARLONG_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0051.jpg"
-    ],
-    deskripsi: [
-      "Nikmati Citarasa Lintingan Sendiri.",
-      "Nyalakan Semangat Mu...",
-      "Bangkitkan Inspirasi Mu...",
-      "Happy Kaum Lintingers..."
-    ],
-  },
-  {
-    nama: "BLANK Papir 1 Bundel Besar Utuh 2.000 lembar",
+    {
+    nama: "BLANK",
     merk: "OJK",
     rasa: "Manis Sedang",
     isi: 2000,
@@ -304,28 +261,6 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-  {
-    nama: "SAMSU HITAM Papir 1 Bundel Besar Utuh 2.000 lembar",
-    merk: "OJK",
-    rasa: "Manis Sedang",
-    isi: 2000,
-    size: "4x9 cm",
-    harga: 21000,
-    stok: 1000,
-    berat: 200,
-    kategori: "PAPIR / KERTAS LINTING",
-    gambar: [
-      "gambar/PAPIR/SAMSU_HITAM_Papir_1_Bundel_Besar_Utuh_2.000_lembar/IMG-20251122-WA0061.jpg",
-      "gambar/PAPIR/SAMSU_HITAM_Papir_1_Bundel_Besar_Utuh_2.000_lembar/WhatsApp Image 2025-11-29 at 21.19.09.jpeg",
-      "gambar/PAPIR/SAMSU_HITAM_Papir_1_Bundel_Besar_Utuh_2.000_lembar/WhatsApp Image 2025-11-29 at 21.19.10.jpeg"
-    ],
-    deskripsi: [
-      "Nikmati Citarasa Lintingan Sendiri.",
-      "Nyalakan Semangat Mu...",
-      "Bangkitkan Inspirasi Mu...",
-      "Happy Kaum Lintingers..."
-    ],
-  },
 
   /* ===========================
      PRODUK BUSA/FILTER
@@ -334,8 +269,7 @@ const produkList = [
     nama: "MILD 1 Klik Rasa ANGGUR 30 gr",
     merk: "MILD",
     rasa: "Anggur",
-    isi: 170 ,                 // isi 30 gr
-    size: "Mild 1 klik",
+    isi: 170,                 // 170 butir (±30 gr)
     harga: 13000,
     stok: 1000,
     berat: 30,
@@ -350,6 +284,48 @@ const produkList = [
       "Bangkitkan Inspirasi Mu...",
       "Happy Kaum Lintingers...",
       "Ukuran: Mild 1 klik · Rasa ANGGUR · Isi 30 gr · Quality Premium."
+    ],
+  },
+  {
+    nama: "7 Mild KLIK BUBLEGUME 30 gr Premium",
+    merk: "MILD",
+    rasa: "BUBLEGUME",
+    isi: 170,                 // 170 butir (±30 gr)
+    harga: 13000,
+    stok: 1000,
+    berat: 30,
+    kategori: "BUSA / FILTER / SPONS",
+    gambar: [
+      "gambar/BUSA/BUSA_BUBLEGUM/IMG-20251122-WA0075.jpg",
+      "gambar/BUSA/BUSA_BUBLEGUM/IMG-20251122-WA0083.jpg",
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers...",
+      "Ukuran: Mild 1 klik · Rasa BUBLEGUME · Isi 30 gr · Quality Premium."
+    ],
+  },
+  {
+    nama: "Mild 1 klik Rasa APPLE",
+    merk: "MILD",
+    rasa: "APPLE",
+    isi: 170,                 // 170 butir (±30 gr)
+    harga: 13000,
+    stok: 1000,
+    berat: 30,
+    kategori: "BUSA / FILTER / SPONS",
+    gambar: [
+      "gambar/BUSA/BUSA_APPLE/IMG-20251122-WA0079.jpg",
+      "gambar/BUSA/BUSA_APPLE/IMG-20251122-WA0076.jpg",
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers...",
+      "Ukuran: Mild 1 klik · Rasa APPLE · Isi 30 gr · Quality Premium."
     ],
   },
 ];
@@ -395,11 +371,14 @@ function renderProdukKategori(kat) {
     const card = document.createElement("div");
     card.className = "produk-card";
 
+    // DI LUAR: hanya pakai nama asli
+    const displayName = p.nama;
+
     card.innerHTML = `
       <img src="${p.gambar[0]}" onclick="showDetail('${p.nama}')">
 
       <div class="product-info">
-        <h3 class="product-name">${p.nama}</h3>
+        <h3 class="product-name">${displayName}</h3>
 
         <p class="product-stock">Berat: <b>${formatBerat(p.berat)}</b></p>
         <p class="product-price">Rp${p.harga.toLocaleString()}</p>
@@ -464,21 +443,36 @@ function showDetail(nama) {
   document.getElementById("detailLead").textContent = leadText;
   document.getElementById("detailDesk").innerHTML = fullDesc;
 
-  /* DETAIL LAIN */
-  document.getElementById("detailNama").textContent = p.nama;
+  // DI DALAM: tampilkan nama lengkap untuk PAPIR
+  const detailDisplayName =
+    p.kategori === "PAPIR / KERTAS LINTING"
+      ? `${p.nama} Papir 1 Bundel ${p.isi.toLocaleString()} lembar`
+      : p.nama;
+
+  document.getElementById("detailNama").textContent = detailDisplayName;
   document.getElementById("detailPrice").textContent =
     "Rp " + p.harga.toLocaleString();
   document.getElementById("detailMerk").textContent = p.merk;
   document.getElementById("detailRasa").textContent = p.rasa;
 
-  // Isi: untuk produk ANGGUR pakai satuan gr, lainnya lembar
-  if (p.nama === "MILD 1 Klik Rasa ANGGUR 30 gr") {
-    document.getElementById("detailIsi").textContent = p.isi + " gr";
+  // handle elemen ukuran (size)
+  const sizeEl = document.getElementById("detailSize");
+  const sizeRow = sizeEl ? sizeEl.parentElement : null;
+
+  // Isi: untuk kategori BUSA pakai satuan butir, lainnya lembar
+  if (p.kategori === "BUSA / FILTER / SPONS") {
+    document.getElementById("detailIsi").textContent = p.isi + " butir";
+
+    // sembunyikan baris ukuran untuk kategori busa
+    if (sizeRow) sizeRow.style.display = "none";
   } else {
     document.getElementById("detailIsi").textContent = p.isi + " lembar";
+
+    // tampilkan lagi baris ukuran untuk kategori lain
+    if (sizeRow) sizeRow.style.display = "";
+    if (sizeEl) sizeEl.textContent = p.size;
   }
 
-  document.getElementById("detailSize").textContent = p.size;
   document.getElementById("detailBerat").textContent = formatBerat(p.berat);
   document.getElementById("detailStock").textContent = p.stok;
 
