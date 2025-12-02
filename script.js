@@ -84,7 +84,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-    {
+  {
     nama: "MBR TAWAR Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "TAWAR",
@@ -106,7 +106,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-    {
+  {
     nama: "MBR MANIS Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "MANIS SEDANG",
@@ -128,8 +128,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-  
-   {
+  {
     nama: "CLASS MILD Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -150,8 +149,8 @@ const produkList = [
       "Bangkitkan Inspirasi Mu...",
       "Happy Kaum Lintingers..."
     ],
-   },
-   {
+  },
+  {
     nama: "DUNMIL Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -173,7 +172,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-    {
+  {
     nama: "SAMSU HITAM Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -195,7 +194,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-    {
+  {
     nama: "EXLUSIVE Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -217,7 +216,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-    {
+  {
     nama: "BLANK Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -240,7 +239,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-    {
+  {
     nama: "GF SUPER COKELAT Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -260,7 +259,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-      {
+  {
     nama: "GF SAMSU KUNING Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -282,7 +281,7 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-      {
+  {
     nama: "GF GG FILTER Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -304,30 +303,6 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-
-      {
-    nama: "GF GG FILTER Papir 1 Bundel 2.000 lembar",
-    merk: "OJK",
-    rasa: "Manis Sedang",
-    isi: 2000,
-    size: "4,3x8 cm",
-    harga: 21000,
-    stok: 1000,
-    berat: 200,
-    kategori: "PAPIR / KERTAS LINTING",
-    gambar: [
-      "gambar/PAPIR/GF/MARLONG/IMG-20251122-WA0036.jpg",
-      "gambar/PAPIR/GF/MARLONG/IMG-20251122-WA0029.jpg",
-      "gambar/PAPIR/GF/MARLONG/IMG-20251122-WA0051.jpg"
-    ],
-    deskripsi: [
-      "Nikmati Citarasa Lintingan Sendiri.",
-      "Nyalakan Semangat Mu...",
-      "Bangkitkan Inspirasi Mu...",
-      "Happy Kaum Lintingers..."
-    ],
-  },
-
   {
     nama: "GF GG FILTER Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
@@ -350,8 +325,29 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-
-    {
+  {
+    nama: "GF GG FILTER Papir 1 Bundel 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4,3x8 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/GF/MARLONG/IMG-20251122-WA0036.jpg",
+      "gambar/PAPIR/GF/MARLONG/IMG-20251122-WA0029.jpg",
+      "gambar/PAPIR/GF/MARLONG/IMG-20251122-WA0051.jpg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+  {
     nama: "SURYA Papir 1 Bundel Besar Utuh 2.000 lembarr",
     merk: "OJK",
     rasa: "Manis Sedang",
@@ -374,8 +370,6 @@ const produkList = [
     ],
   },
 
-
-
   /* ===========================
      PRODUK BUSA/FILTER
   ============================ */
@@ -383,7 +377,7 @@ const produkList = [
     nama: "MILD 1 KLIK RASA ANGGUR 30gr",
     merk: "MILD",
     rasa: "Anggur",
-    isi: 170,                 // 170 butir (±30 gr)
+    isi: 170, // 170 butir (±30 gr)
     harga: 13000,
     stok: 1000,
     berat: 30,
@@ -404,7 +398,7 @@ const produkList = [
     nama: "MILD 1 KLIK BUBLEGUME 30 gr Premium",
     merk: "MILD",
     rasa: "BUBLEGUME",
-    isi: 170,                 // 170 butir (±30 gr)
+    isi: 170,
     harga: 13000,
     stok: 1000,
     berat: 30,
@@ -421,11 +415,11 @@ const produkList = [
       "Ukuran: Mild 1 klik · Rasa BUBLEGUME · Isi 30 gr · Quality Premium."
     ],
   },
-    {
+  {
     nama: "MILD 1 KLIK RASA APPLE 30GR",
     merk: "MILD",
     rasa: "APPLE",
-    isi: 170,                 // 170 butir (±30 gr)
+    isi: 170,
     harga: 13000,
     stok: 1000,
     berat: 30,
@@ -442,12 +436,11 @@ const produkList = [
       "Ukuran: Mild 1 klik · Rasa APPLE · Isi 30 gr · Quality Premium."
     ],
   },
-
-    {
+  {
     nama: "MILD 1 KLIK RASA BLUEBERRY 30GR",
     merk: "MILD",
     rasa: "BLUEBERRY",
-    isi: 170,                 // 170 butir (±30 gr)
+    isi: 170,
     harga: 13000,
     stok: 1000,
     berat: 30,
@@ -464,12 +457,11 @@ const produkList = [
       "Ukuran: Mild 1 klik · Rasa APPLE · Isi 30 gr · Quality Premium."
     ],
   },
-
-    {
+  {
     nama: "MILD 1 KLIK RASA MANGGA 30GR",
     merk: "MILD",
     rasa: "MANGGA",
-    isi: 170,                 // 170 butir (±30 gr)
+    isi: 170,
     harga: 13000,
     stok: 1000,
     berat: 30,
@@ -486,12 +478,11 @@ const produkList = [
       "Ukuran: Mild 1 klik · Rasa APPLE · Isi 30 gr · Quality Premium."
     ],
   },
-
-    {
+  {
     nama: "MILD 1 KLIK RASA NANAS 30GR",
     merk: "MILD",
     rasa: "NANAS",
-    isi: 170,                 // 170 butir (±30 gr)
+    isi: 170,
     harga: 13000,
     stok: 1000,
     berat: 30,
@@ -508,12 +499,11 @@ const produkList = [
       "Ukuran: Mild 1 klik · Rasa APPLE · Isi 30 gr · Quality Premium."
     ],
   },
-
-    {
+  {
     nama: "MILD 1 KLIK RASA MELON 30GR",
     merk: "MILD",
     rasa: "MELON",
-    isi: 170,                 // 170 butir (±30 gr)
+    isi: 170,
     harga: 13000,
     stok: 1000,
     berat: 30,
@@ -530,12 +520,11 @@ const produkList = [
       "Ukuran: Mild 1 klik · Rasa APPLE · Isi 30 gr · Quality Premium."
     ],
   },
-
-    {
+  {
     nama: "MILD 1 KLIK RASA STROWBERI 30GR",
     merk: "MILD",
     rasa: "STROWBERI",
-    isi: 170,                 // 170 butir (±30 gr)
+    isi: 170,
     harga: 13000,
     stok: 1000,
     berat: 30,
@@ -553,62 +542,55 @@ const produkList = [
     ],
   },
 
-
   /* ===========================
      BELUM ADA DAN SEGERA HADIR
   ============================ */
-
-{
-  nama: " Hornet 110mm Ukuran MILDS",
-  merk: "Firetric",
-  isi: 1,
-  size: "Ukuran Rokok 10 x 110 mm",
-  harga: 0,             // GANTI HARGA
-  stok: 100,            // GANTI STOK
-  berat: 120,           // 0.12 kg = 120 gr
-  kategori: "ALAT LINTING",
-  gambar: [
-    "gambar/ALAT-LINTING/Hornet-110mm-Ukuran-MILD/WhatsApp Image 2025-12-02 at 21.10.11.jpeg",
-    "gambar/ALAT-LINTING/Hornet-110mm-Ukuran-MILD/WhatsApp Image 2025-12-02 at 21.10.41 (1).jpeg",
-    "gambar/ALAT-LINTING/Hornet-110mm-Ukuran-MILD/WhatsApp Image 2025-12-02 at 21.10.41.jpeg"
-  ],
-
-  deskripsi: [
-    "Brand: Firetric",
-    "Garansi: -",
-    "Berat Produk: 0.12 kg",
-    "Dimensi Kemasan: -",
-    "",
-    "Keunggulan Produk:",
-    "🔹 Bodinya terbuat dari metal yang kokoh, awet, dan tampak premium.",
-    "🔹 Proses linting lebih rapi berkat adanya penutup metal.",
-    "🔹 Menghasilkan ukuran rokok 10 x 110 mm yang banyak disukai.",
-    "🔹 Desain ringkas sehingga mudah dibawa bepergian.",
-    "",
-    "Overview:",
-    "Sebagai penikmat rokok, melinting rokok sendiri memberikan kepuasan yang berbeda. Selain lebih murah, Anda dapat memilih rasa tembakau sesuai selera.",
-    "Untuk mempercepat proses melinting, Firetric menghadirkan alat linting rokok manual yang bekerja secara mekanis untuk memasukkan tembakau ke dalam gulungan kertas rokok.",
-    "Dengan alat ini, Anda bisa mendapatkan lintingan rokok yang rapi, padat, dan konsisten dalam waktu singkat.",
-    "",
-    "Fitur:",
-    "Melinting Jadi Lebih Mudah — Roller dirancang khusus untuk membantu memasukkan tembakau ke dalam kertas rokok, menghasilkan lintingan yang padat dan konsisten.",
-    "",
-    "Lebih Rapi dengan Penutup — Penutup metal dapat dibuka-tutup agar proses linting tetap rapi dan efisien.",
-    "",
-    "Ukuran Rokok Sempurna — Menghasilkan rokok diameter 10 mm dan panjang 110 mm, ukuran populer yang nyaman dinikmati.",
-    "",
-    "Desain Ringkas dan Ringan — Mudah dibawa bepergian dan tidak membutuhkan tempat penyimpanan khusus.",
-    "",
-    "Material Kokoh dan Awet — Rangka metal kuat dan plastik berkualitas memastikan alat linting awet dalam jangka panjang.",
-    "",
-    "Kelengkapan Produk:",
-    "1 x Firetric Alat Linting Rokok Manual Tobacco Roller 10x110mm - TN902"
-  ],
-},
-
-
-
-  
+  {
+    nama: " Hornet 110mm Ukuran MILDS",
+    merk: "Firetric",
+    isi: 1,
+    size: "Ukuran Rokok 10 x 110 mm",
+    harga: 0,             // GANTI HARGA
+    stok: 100,            // GANTI STOK
+    berat: 120,           // 0.12 kg = 120 gr
+    kategori: "ALAT LINTING",
+    gambar: [
+      "gambar/ALAT-LINTING/Hornet-110mm-Ukuran-MILD/WhatsApp Image 2025-12-02 at 21.10.11.jpeg",
+      "gambar/ALAT-LINTING/Hornet-110mm-Ukuran-MILD/WhatsApp Image 2025-12-02 at 21.10.41 (1).jpeg",
+      "gambar/ALAT-LINTING/Hornet-110mm-Ukuran-MILD/WhatsApp Image 2025-12-02 at 21.10.41.jpeg"
+    ],
+    deskripsi: [
+      "Brand: Firetric",
+      "Garansi: -",
+      "Berat Produk: 0.12 kg",
+      "Dimensi Kemasan: -",
+      "",
+      "Keunggulan Produk:",
+      "🔹 Bodinya terbuat dari metal yang kokoh, awet, dan tampak premium.",
+      "🔹 Proses linting lebih rapi berkat adanya penutup metal.",
+      "🔹 Menghasilkan ukuran rokok 10 x 110 mm yang banyak disukai.",
+      "🔹 Desain ringkas sehingga mudah dibawa bepergian.",
+      "",
+      "Overview:",
+      "Sebagai penikmat rokok, melinting rokok sendiri memberikan kepuasan yang berbeda. Selain lebih murah, Anda dapat memilih rasa tembakau sesuai selera.",
+      "Untuk mempercepat proses melinting, Firetric menghadirkan alat linting rokok manual yang bekerja secara mekanis untuk memasukkan tembakau ke dalam gulungan kertas rokok.",
+      "Dengan alat ini, Anda bisa mendapatkan lintingan rokok yang rapi, padat, dan konsisten dalam waktu singkat.",
+      "",
+      "Fitur:",
+      "Melinting Jadi Lebih Mudah — Roller dirancang khusus untuk membantu memasukkan tembakau ke dalam kertas rokok, menghasilkan lintingan yang padat dan konsisten.",
+      "",
+      "Lebih Rapi dengan Penutup — Penutup metal dapat dibuka-tutup agar proses linting tetap rapi dan efisien.",
+      "",
+      "Ukuran Rokok Sempurna — Menghasilkan rokok diameter 10 mm dan panjang 110 mm, ukuran populer yang nyaman dinikmati.",
+      "",
+      "Desain Ringkas dan Ringan — Mudah dibawa bepergian dan tidak membutuhkan tempat penyimpanan khusus.",
+      "",
+      "Material Kokoh dan Awet — Rangka metal kuat dan plastik berkualitas memastikan alat linting awet dalam jangka panjang.",
+      "",
+      "Kelengkapan Produk:",
+      "1 x Firetric Alat Linting Rokok Manual Tobacco Roller 10x110mm - TN902"
+    ],
+  },
 ];
 
 /* ============================================================
@@ -726,25 +708,41 @@ function showDetail(nama) {
   document.getElementById("detailPrice").textContent =
     "Rp " + p.harga.toLocaleString();
   document.getElementById("detailMerk").textContent = p.merk;
-  document.getElementById("detailRasa").textContent = p.rasa;
 
-  // handle elemen ukuran (size)
+  // ====== HANDLE RASA (KHUSUS ALAT LINTING SAJA) ======
+  const rasaEl = document.getElementById("detailRasa");
+  const rasaRow = rasaEl ? rasaEl.parentElement : null;
+
+  if (p.kategori === "ALAT LINTING") {
+    // sembunyikan rasa hanya untuk alat linting
+    if (rasaRow) rasaRow.style.display = "none";
+  } else {
+    // tampilkan rasa normal untuk PAPIR & BUSA
+    if (rasaRow) rasaRow.style.display = "";
+    if (rasaEl && p.rasa !== undefined) rasaEl.textContent = p.rasa;
+  }
+
+  // ====== HANDLE UKURAN (SIZE) & ISI (SATUAN) ======
   const sizeEl = document.getElementById("detailSize");
   const sizeRow = sizeEl ? sizeEl.parentElement : null;
 
-  // Isi: untuk kategori BUSA pakai satuan butir, lainnya lembar
+  let satuanIsi = "lembar"; // default PAPIR
+
   if (p.kategori === "BUSA / FILTER / SPONS") {
-    document.getElementById("detailIsi").textContent = p.isi + " butir";
-
-    // sembunyikan baris ukuran untuk kategori busa
+    satuanIsi = "butir"; // khusus busa
     if (sizeRow) sizeRow.style.display = "none";
+  } else if (p.kategori === "ALAT LINTING") {
+    satuanIsi = "unit"; // khusus alat linting
+    if (sizeRow) sizeRow.style.display = ""; // ukuran rokok tetap ditampilkan
   } else {
-    document.getElementById("detailIsi").textContent = p.isi + " lembar";
-
-    // tampilkan lagi baris ukuran untuk kategori lain
+    satuanIsi = "lembar"; // PAPIR dan kategori lain
     if (sizeRow) sizeRow.style.display = "";
-    if (sizeEl) sizeEl.textContent = p.size;
   }
+
+  document.getElementById("detailIsi").textContent =
+    p.isi + " " + satuanIsi;
+
+  if (sizeEl && p.size) sizeEl.textContent = p.size;
 
   document.getElementById("detailBerat").textContent = formatBerat(p.berat);
   document.getElementById("detailStock").textContent = p.stok;
