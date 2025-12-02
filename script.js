@@ -173,29 +173,6 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
-
-    {
-    nama: "GF SAMSU KUNING Papir 1 Bundel 2.000 lembar",
-    merk: "OJK",
-    rasa: "Manis Sedang",
-    isi: 2000,
-    size: "4,3x8 cm",
-    harga: 21000,
-    stok: 1000,
-    berat: 200,
-    kategori: "PAPIR / KERTAS LINTING",
-    gambar: [
-      "gambar/PAPIR/GF/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/SAMSU-KUNING-1.jpg",
-      "gambar/PAPIR/GF/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/SAMSU-KUNING-2.jpg",
-      "gambar/PAPIR/GF/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/SAMSU-KUNING-3.jpg"
-    ],
-    deskripsi: [
-      "Nikmati Citarasa Lintingan Sendiri.",
-      "Nyalakan Semangat Mu...",
-      "Bangkitkan Inspirasi Mu...",
-      "Happy Kaum Lintingers..."
-    ],
-  },
     {
     nama: "SAMSU HITAM Papir 1 Bundel 2.000 lembar",
     merk: "OJK",
@@ -263,6 +240,141 @@ const produkList = [
       "Happy Kaum Lintingers..."
     ],
   },
+    {
+    nama: "GF SUPER COKELAT Papir 1 Bundel 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4,3x8 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/GF/MILD_COKELAT/COKELAT-3.jpeg",
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+      {
+    nama: "GF SAMSU KUNING Papir 1 Bundel 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4,3x8 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/GF/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/SAMSU-KUNING-1.jpg",
+      "gambar/PAPIR/GF/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/SAMSU-KUNING-2.jpg",
+      "gambar/PAPIR/GF/SAMSU_KUNING_Papir_1_Bundel_Besar_Utuh_2.000_lembar/SAMSU-KUNING-3.jpg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+      {
+    nama: "GF GG FILTER Papir 1 Bundel 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4,3x8 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/GF/MILD_COKELAT/IMG-20251122-WA0035.jpg",
+      "gambar/PAPIR/GF/MILD_COKELAT/IMG-20251122-WA0020.jpg",
+      "gambar/PAPIR/GF/MILD_COKELAT/IMG-20251122-WA0021.jpg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+
+      {
+    nama: "GF GG FILTER Papir 1 Bundel 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4,3x8 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/GF/MARLONG/IMG-20251122-WA0036.jpg",
+      "gambar/PAPIR/GF/MARLONG/IMG-20251122-WA0029.jpg",
+      "gambar/PAPIR/GF/MARLONG/IMG-20251122-WA0051.jpg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+
+  {
+    nama: "GF GG FILTER Papir 1 Bundel 2.000 lembar",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4,3x8 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/GF/MARLONG/IMG-20251122-WA0036.jpg",
+      "gambar/PAPIR/GF/MARLONG/IMG-20251122-WA0029.jpg",
+      "gambar/PAPIR/GF/MARLONG/IMG-20251122-WA0051.jpg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+
+    {
+    nama: "SURYA Papir 1 Bundel Besar Utuh 2.000 lembarr",
+    merk: "OJK",
+    rasa: "Manis Sedang",
+    isi: 2000,
+    size: "4x9 cm",
+    harga: 21000,
+    stok: 1000,
+    berat: 200,
+    kategori: "PAPIR / KERTAS LINTING",
+    gambar: [
+      "gambar/PAPIR/SURYA_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/MILD_ORANGE-2.jpg",
+      "gambar/PAPIR/SURYA_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0057.jpg",
+      "gambar/PAPIR/SURYA_PAPIR_1_BUNDEL_BESAR_UTUH_2.000_LEMBAR/IMG-20251122-WA0056.jpg"
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers..."
+    ],
+  },
+
+
 
   /* ===========================
      PRODUK BUSA/FILTER
