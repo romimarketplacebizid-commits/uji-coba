@@ -380,7 +380,7 @@ const produkList = [
      PRODUK BUSA/FILTER
   ============================ */
   {
-    nama: "MILD 1 Klik Rasa ANGGUR 30 gr",
+    nama: "MILD 1 KLIK RASA ANGGUR 30gr",
     merk: "MILD",
     rasa: "Anggur",
     isi: 170,                 // 170 butir (±30 gr)
@@ -401,7 +401,7 @@ const produkList = [
     ],
   },
   {
-    nama: "7 Mild KLIK BUBLEGUME 30 gr Premium",
+    nama: "MILD 1 KLIK BUBLEGUME 30 gr Premium",
     merk: "MILD",
     rasa: "BUBLEGUME",
     isi: 170,                 // 170 butir (±30 gr)
@@ -422,7 +422,7 @@ const produkList = [
     ],
   },
     {
-    nama: "Mild 1 klik Rasa APPLE",
+    nama: "mild 1 KLIK RASA APPLE",
     merk: "MILD",
     rasa: "APPLE",
     isi: 170,                 // 170 butir (±30 gr)
