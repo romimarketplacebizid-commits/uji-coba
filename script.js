@@ -546,7 +546,7 @@ const produkList = [
      BELUM ADA DAN SEGERA HADIR
   ============================ */
   {
-    nama: " Hornet 110mm Ukuran MILDS",
+    nama: " Hornet 110mm Ukuran MILD",
     merk: "Firetric",
     isi: 1,
     size: "Ukuran Rokok 10 x 110 mm",
