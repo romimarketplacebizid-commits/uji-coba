@@ -410,8 +410,8 @@ const produkList = [
     berat: 30,
     kategori: "BUSA / FILTER / SPONS",
     gambar: [
-      "gambar/BUSA/BUSA_BUBLEGUM/IMG-20251122-WA0075.jpg",
-      "gambar/BUSA/BUSA_BUBLEGUM/IMG-20251122-WA0083.jpg",
+      "gambar/BUSA/BUSA_BUBLEGUME_PREMIUM/IMG-20251122-WA0083.jpg",
+      "gambar/BUSA/BUSA_BUBLEGUME_PREMIUM/IMG-20251122-WA0075.jpg",
     ],
     deskripsi: [
       "Nikmati Citarasa Lintingan Sendiri.",
@@ -422,7 +422,7 @@ const produkList = [
     ],
   },
     {
-    nama: "mild 1 KLIK RASA APPLE",
+    nama: "MILD 1 KLIK RASA APPLE 30GR",
     merk: "MILD",
     rasa: "APPLE",
     isi: 170,                 // 170 butir (±30 gr)
@@ -442,6 +442,122 @@ const produkList = [
       "Ukuran: Mild 1 klik · Rasa APPLE · Isi 30 gr · Quality Premium."
     ],
   },
+
+    {
+    nama: "MILD 1 KLIK RASA BLUEBERRY 30GR",
+    merk: "MILD",
+    rasa: "BLUEBERRY",
+    isi: 170,                 // 170 butir (±30 gr)
+    harga: 13000,
+    stok: 1000,
+    berat: 30,
+    kategori: "BUSA / FILTER / SPONS",
+    gambar: [
+      "gambar/BUSA/BUSA_BLUBERRY/IMG-20251122-WA0084.jpg",
+      "gambar/BUSA/BUSA_BLUBERRY/IMG-20251122-WA0077.jpg",
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers...",
+      "Ukuran: Mild 1 klik · Rasa APPLE · Isi 30 gr · Quality Premium."
+    ],
+  },
+
+    {
+    nama: "MILD 1 KLIK RASA MANGGA 30GR",
+    merk: "MILD",
+    rasa: "MANGGA",
+    isi: 170,                 // 170 butir (±30 gr)
+    harga: 13000,
+    stok: 1000,
+    berat: 30,
+    kategori: "BUSA / FILTER / SPONS",
+    gambar: [
+      "gambar/BUSA/BUSA_MANGGA/IMG-20251122-WA0085.jpg",
+      "gambar/BUSA/BUSA_MANGGA/IMG-20251122-WA0071.jpg",
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers...",
+      "Ukuran: Mild 1 klik · Rasa APPLE · Isi 30 gr · Quality Premium."
+    ],
+  },
+
+    {
+    nama: "MILD 1 KLIK RASA NANAS 30GR",
+    merk: "MILD",
+    rasa: "NANAS",
+    isi: 170,                 // 170 butir (±30 gr)
+    harga: 13000,
+    stok: 1000,
+    berat: 30,
+    kategori: "BUSA / FILTER / SPONS",
+    gambar: [
+      "gambar/BUSA/BUSA_NANAS/IMG-20251122-WA0086.jpg",
+      "gambar/BUSA/BUSA_NANAS/IMG-20251122-WA0078.jpg",
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers...",
+      "Ukuran: Mild 1 klik · Rasa APPLE · Isi 30 gr · Quality Premium."
+    ],
+  },
+
+    {
+    nama: "MILD 1 KLIK RASA MELON 30GR",
+    merk: "MILD",
+    rasa: "MELON",
+    isi: 170,                 // 170 butir (±30 gr)
+    harga: 13000,
+    stok: 1000,
+    berat: 30,
+    kategori: "BUSA / FILTER / SPONS",
+    gambar: [
+      "gambar/BUSA/BUSA_MELON/IMG-20251122-WA0082.jpg",
+      "gambar/BUSA/BUSA_MELON/IMG-20251122-WA0073.jpg",
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers...",
+      "Ukuran: Mild 1 klik · Rasa APPLE · Isi 30 gr · Quality Premium."
+    ],
+  },
+
+    {
+    nama: "MILD 1 KLIK RASA STROWBERI 30GR",
+    merk: "MILD",
+    rasa: "STROWBERI",
+    isi: 170,                 // 170 butir (±30 gr)
+    harga: 13000,
+    stok: 1000,
+    berat: 30,
+    kategori: "BUSA / FILTER / SPONS",
+    gambar: [
+      "gambar/BUSA/BUSA_STROWBERIY/IMG-20251122-WA0081.jpg",
+      "gambar/BUSA/BUSA_STROWBERIY/IMG-20251122-WA0072.jpg",
+    ],
+    deskripsi: [
+      "Nikmati Citarasa Lintingan Sendiri.",
+      "Nyalakan Semangat Mu...",
+      "Bangkitkan Inspirasi Mu...",
+      "Happy Kaum Lintingers...",
+      "Ukuran: Mild 1 klik · Rasa APPLE · Isi 30 gr · Quality Premium."
+    ],
+  },
+
+
+  /* ===========================
+     BELUM ADA DAN SEGERA HADIR
+  ============================ */
+
   
 ];
 
